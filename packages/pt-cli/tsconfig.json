@@ -1,26 +1,14 @@
 {
   "compilerOptions": {
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "types": ["reflect-metadata"],
-    "module": "commonjs",
-    "target": "es2017",
-    "outDir": "build",
-    "lib": ["es6", "dom.iterable", "dom"],
-    "allowJs": true,
+    "declaration": true,
     "importHelpers": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "sourceMap": true,
-    "declarationMap": true,
+    "module": "commonjs",
+    "outDir": "lib",
+    "rootDir": "src",
     "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "jsx": "react",
-    "declaration": true
+    "target": "es2017"
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "**/tests/*"]
+  "include": [
+    "src/**/*"
+  ]
 }
